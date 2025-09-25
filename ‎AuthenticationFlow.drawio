@@ -124,8 +124,23 @@
         <mxCell id="zKDcuJowtmO_oDvqBHJi-27" value="Callback and Login" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kN4_5Bv1OCBTJI5ImHN2-1" value="1. Migration&amp;nbsp;&lt;div&gt;2. Model&lt;br&gt;3. Enums (Optional)&lt;/div&gt;&lt;div&gt;4. Service&lt;/div&gt;&lt;div&gt;5. Form Request&lt;br&gt;6. Controller&lt;br&gt;7. Routes&lt;br&gt;8. Views&lt;br&gt;9. Lang Files (Optional)&lt;br&gt;10. Icons (Optional)&lt;br&gt;11. Fonts (Optional)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+        <mxCell id="kN4_5Bv1OCBTJI5ImHN2-1" value="1. Migration&amp;nbsp;&lt;div&gt;2. Model&lt;br&gt;3. Enums (Optional)&lt;/div&gt;&lt;div&gt;4. Service&lt;/div&gt;&lt;div&gt;5. Form Request&lt;br&gt;6. Controller&lt;br&gt;7. Routes&lt;br&gt;8. Views&lt;br&gt;9. Lang Files (Optional)&lt;br&gt;10. Icons (Optional)&lt;br&gt;11. Fonts (Optional)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="706PZd4yTdcnup5dBuP7-3" value="Enter Mobile/Email and Request Code" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="706PZd4yTdcnup5dBuP7-1" target="706PZd4yTdcnup5dBuP7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="706PZd4yTdcnup5dBuP7-1" value="OTP Login" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="706PZd4yTdcnup5dBuP7-5" value="Update Verification Status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="706PZd4yTdcnup5dBuP7-2" target="706PZd4yTdcnup5dBuP7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="706PZd4yTdcnup5dBuP7-2" value="Check User and Verify Code" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="706PZd4yTdcnup5dBuP7-4" value="Login" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
