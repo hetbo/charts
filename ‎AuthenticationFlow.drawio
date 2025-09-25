@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
   <diagram name="Page-1" id="no34X1WKaqrNkO2pMlmY">
-    <mxGraphModel dx="1876" dy="1340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1273" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-15" value="Not Authenticated" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="T-3kEPMgdTdC9EKKQhfz-14" target="T-3kEPMgdTdC9EKKQhfz-10">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-15" value="Not Authenticated" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="T-3kEPMgdTdC9EKKQhfz-14" target="T-3kEPMgdTdC9EKKQhfz-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="220" as="targetPoint" />
             <Array as="points">
@@ -47,7 +47,7 @@
         <mxCell id="T-3kEPMgdTdC9EKKQhfz-15" value="Redirect Intended Route" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-4" value="Request Code" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zKDcuJowtmO_oDvqBHJi-3">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-4" value="Request Code" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="zKDcuJowtmO_oDvqBHJi-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="350" as="sourcePoint" />
           </mxGeometry>
@@ -58,10 +58,10 @@
         <mxCell id="T-3kEPMgdTdC9EKKQhfz-21" value="1. The controller method for this route will check for Auth, Mobile and Verified and if any of them are true, it will throw a 403 error" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="-30" width="690" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-8" value="Verify Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zKDcuJowtmO_oDvqBHJi-3" target="zKDcuJowtmO_oDvqBHJi-7">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-8" value="Verify Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zKDcuJowtmO_oDvqBHJi-3" target="zKDcuJowtmO_oDvqBHJi-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-10" value="Resend Code [AJAX]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKDcuJowtmO_oDvqBHJi-3" target="zKDcuJowtmO_oDvqBHJi-11">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-10" value="Resend Code [AJAX]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zKDcuJowtmO_oDvqBHJi-3" target="zKDcuJowtmO_oDvqBHJi-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="450" as="targetPoint" />
             <Array as="points">
@@ -69,16 +69,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-3" value="Enter Code Route&lt;sup&gt;2&lt;/sup&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-3" value="Enter Code Route&lt;sup&gt;2&lt;/sup&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-6" value="2. This route uses a signed URL to prevent unauthorized access&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-6" value="2. This route uses a signed URL to prevent unauthorized access&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="-70" width="690" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-7" value="Verify Code and Login" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-7" value="Verify Code and Login" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1000" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-12" value="Return success message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zKDcuJowtmO_oDvqBHJi-11" target="zKDcuJowtmO_oDvqBHJi-3">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-12" value="Return success message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="zKDcuJowtmO_oDvqBHJi-11" target="zKDcuJowtmO_oDvqBHJi-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1060" y="480" />
@@ -86,43 +86,46 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-11" value="Regenerate and resend code&lt;sup&gt;3&lt;/sup&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-11" value="Regenerate and resend code&lt;sup&gt;3&lt;/sup&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1000" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-13" value="3. All routes including this one must and will have proper throttling" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-13" value="3. All routes including this one must and will have proper throttling" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="-110" width="690" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-18" value="*. Guest routes are drawn with &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;RED &lt;/font&gt;outline" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-18" value="*. Guest routes are drawn with &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;RED &lt;/font&gt;outline" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="-150" width="690" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-22" value="Request password reset link" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zKDcuJowtmO_oDvqBHJi-20" target="zKDcuJowtmO_oDvqBHJi-21">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-22" value="Request password reset link" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zKDcuJowtmO_oDvqBHJi-20" target="zKDcuJowtmO_oDvqBHJi-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-20" value="Forget Password" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-20" value="Forget Password" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="40" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-24" value="Request password reset&lt;sup&gt;4&lt;/sup&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zKDcuJowtmO_oDvqBHJi-21" target="zKDcuJowtmO_oDvqBHJi-23">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-24" value="Request password reset&lt;sup&gt;4&lt;/sup&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zKDcuJowtmO_oDvqBHJi-21" target="zKDcuJowtmO_oDvqBHJi-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-21" value="Password reset form" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-21" value="Password reset form" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-23" value="Reset password and redirect Login" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-23" value="Reset password and redirect Login" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-25" value="4. This requires modifying the structure of password_reset_tokens table to include mobile" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-25" value="4. This requires modifying the structure of password_reset_tokens table to include mobile" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="-190" width="690" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-28" value="Request OAuth Login | Register" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zKDcuJowtmO_oDvqBHJi-26" target="zKDcuJowtmO_oDvqBHJi-27">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-28" value="Request OAuth Login | Register" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zKDcuJowtmO_oDvqBHJi-26" target="zKDcuJowtmO_oDvqBHJi-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-26" value="OAuth &lt;br&gt;Login | Register" style="whiteSpace=wrap;html=1;strokeColor=#FF0000;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-26" value="OAuth &lt;br&gt;Login | Register" style="whiteSpace=wrap;html=1;strokeColor=#FF0000;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zKDcuJowtmO_oDvqBHJi-27" value="Callback and Login" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zKDcuJowtmO_oDvqBHJi-27" value="Callback and Login" style="whiteSpace=wrap;html=1;strokeColor=#000000;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kN4_5Bv1OCBTJI5ImHN2-1" value="1. Migration&amp;nbsp;&lt;div&gt;2. Model&lt;br&gt;3. Enums (Optional)&lt;/div&gt;&lt;div&gt;4. Service&lt;/div&gt;&lt;div&gt;5. Form Request&lt;br&gt;6. Controller&lt;br&gt;7. Routes&lt;br&gt;8. Views&lt;br&gt;9. Lang Files (Optional)&lt;br&gt;10. Icons (Optional)&lt;br&gt;11. Fonts (Optional)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
